@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Rancang Bangun Rumah Minimalis
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "Kang Hamdan"
+  },
+  "headline": "Rancang Bangun Rumah Minimalis",
+  "datePublished": "2021-05-10",
+  "image": "https://f1-styx.imgix.net/article/2020/01/17113832/ds5-Desain-Rumah-Minimalis-Type-Tiga-Enam-dengan-Dapur-Terbuka.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gambar Desain Rumah",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=rancang+bangun+rumah+minimalis",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<script type='text/javascript' src='//pl16164237.highperformancecpmnetwork.com/46/fc/8f/46fc8f0cb3be5e854f0e7f595f13a603.js'></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            Rancang Bangun Rumah Minimalis
+            </a>
+        </h1>
+        <p>
+                            Gambar Desain Rumah. Cari Gambar Desain Rumah? Cari Aja disini.
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4526973,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4526973&amp;101" alt="free counter with statistics" border="0" /></a></noscript>
+<!-- Histats.com  END  -->        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>Rancang Bangun Rumah Minimalis</strong>. LUX Mewah Standard dengan konsep bangunan Modern Tropis Etnik Minimalis Ramah Lingkungan High tech atau update terbaru seputar rancang bangun rumah. Java Icon Jasa rancang bangun renovasi rumah kantorhotel dll yang selalu menjaga kredibilitas nya dengan mengerjakan proyeknya tepat waktu.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/originals/98/95/37/989537e345c7f282ec433a6b87760902.jpg" alt="62 Desain Rumah Minimalis Ukuran 6x14 Desain Rumah Minimalis Terbaru Rumah Desain Rumah Minimalis Rumah Minimalis" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3DN8F96twsTvdqRUO01GFKR8ZFldZxNOZ2hbX0atNWsvLKOHIWmbq-mxyx6ocjyqAzQ';">
+        <figcaption>62 Desain Rumah Minimalis Ukuran 6x14 Desain Rumah Minimalis Terbaru Rumah Desain Rumah Minimalis Rumah Minimalis from id.pinterest.com</figcaption>
+    </figure>
+        <p>
+        Keuntungan Memakai Jasa Renovasi Kami. Kami bisa mengerjakan berbagai jenis tipe rumah seperti. Kwalitas Produk Jasa rancang bangun renovasi Java Icon selalu menggunakan bahan bangunan terbaik untuk menjaga kepuasan pelanggan.
+    </p>
+    <h3>Type 21 type 36 type 45 tipe 70 dst.</h3>
+    <p>Rancang Bangun Rumah desain rumah kontraktor rumah renovasi rumah kontraktor ruko kontraktor bangunan desain rumah minimalis kontraktor murah kontraktor jakarta kontraktor bogor kontraktor depok kontraktor bekasi kontraktor semarang kontraktor yogyakarta kontraktor bintaro rancang bangun rumah desain arsitek. Anda Berminat Silahkan Hub. Jasa Rancang Bangunan minimalis Home Design Kota Cirebon. Jun 08 2019 Rancang - Bangun - Renovasi Bangunan - Rumah Minimalis - Rukoh Minimalis - Gedung Perkantoran - Gedung Perbelanjaan.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="10 Model Rumah Sederhana Di Kampung Terbaru 2020 Rumah Minimalis Desain Rumah Minimalis Desain Rumah" src="https://i.pinimg.com/originals/b7/a4/c9/b7a4c90c24095c4f2c6c73907b6c70ed.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWCNvQL4Cs1ufQ0FgCxFfJuBktZwSzPrnDC4nBPhsGTtMwrV0uOgo4gnCrcR5mlV3w3LI';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Jembatan - Taman wisata.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="5 Desain Rumah Minimalis Type 36 Terbaru 2020" src="https://f1-styx.imgix.net/article/2020/01/17113832/ds5-Desain-Rumah-Minimalis-Type-Tiga-Enam-dengan-Dapur-Terbuka.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRjCEcKPPx3qkbUQvt6knQtJ3kfPwjEBIPOK3Vu1zB4HP2P06a059KCi2tRgK5PEqbXPM';" />
+        <small>Source: www.dekoruma.com</small>
+                    <p>Type 21 type 36 type 45 tipe 70 dst.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Contoh Denah Rumah Rancang Bangun Yang Teliti Bagi Bangunan Denah Rumah Rumah Minimalis Rumah Mewah" src="https://i.pinimg.com/originals/0a/95/47/0a95478cca6cd486f2ffb3ad83d9dc0b.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbq6ZlHMHbBxb3N4c1NpaqcnQj21XWQMMEN6bab3LaxJQeXaRa5CXha1o0T3uCcqju13Q';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Anda sedang mencari jasa renovasi rumah minimalis sederhana atau rumah mewah yang terpercaya.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pin Di Favorit" src="https://i.pinimg.com/564x/ee/8a/45/ee8a457fa72b19edf1fc8644014bb4cc.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTOAoTJN0wnJC5zvzLnkvLiGL0qUatFfcBTC_RHNYoyRRnlOdxqsDwlAvzL05QTvlIDEU';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Lainnya TelponWhatsApp 085264420003 Sekian terima kasih.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pin Di Kesehatan" src="https://i.pinimg.com/736x/15/13/77/151377070c4bb5ad24e76523e290a87e.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2zyvdC88R7xfWLC6blnyQP-ztYpYqFz4T6n2zHRcsPunwee2k1dixJBcKYhf3PWR3H_I';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Pos tentang desain rumah yang ditulis oleh.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Bangun Rumah Minimalis Cuma 60jutaan Bikin Rumah Murah 60 Jutaan Duration Salah Satu Karakteristik Dari Rumah Minima Desain Rumah Rumah Minimalis Rumah Modern" src="https://i.pinimg.com/originals/61/37/65/613765ad72b34499adb120ae5801b8a6.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18cWRNT1dEqux9LoSDQhSw5eqfOA9o66DBbf85P4iyqVgvDA-_R8nULDptFhS1mf_Ia4';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Bangun Rumah Bangun Karya Yogyakarta siap membantu anda silahkan hubungi kami team bangun rumah yogyakarta di.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Rumah Minimalis Tampak Depan Dengan Lebar 8 Meter Shreenad Home" src="https://alparsa.co.id/wp-content/uploads/2017/03/rumah-minimalis-2-lantai-lebar-6-meter-07.jpg?gid=10" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvoI0vcF2oHUz31TODVawwYUwvCB-O3noHuRVWbRlrU8BxujP970T-YCWC-cFwi08uX8Y';" />
+        <small>Source: shreenad.blogspot.com</small>
+                    <p>Type 21 type 36 type 45 tipe 70 dst.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="20 Small House Designs That Will Mesmerize You House And Decors Small House Design Exterior Minimalist House Design Small House Design Plans" src="https://i.pinimg.com/564x/4e/7c/ee/4e7cee970c2f98d8539acfebbfcb7dc5.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawpHfP0PR-0TgC_5GhxcSDysQAcvpxK_N6vS9ZObXO5J9RWd6cew3dFo1T4T4aswzqcw';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>- Gudang industri - Jalan.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="62 Desain Rumah Minimalis Ukuran 6x14 Desain Rumah Minimalis Terbaru Rumah Desain Rumah Minimalis Rumah Minimalis" src="https://i.pinimg.com/originals/98/95/37/989537e345c7f282ec433a6b87760902.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3DN8F96twsTvdqRUO01GFKR8ZFldZxNOZ2hbX0atNWsvLKOHIWmbq-mxyx6ocjyqAzQ';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Desain rumah minimalis type 36 ini boleh jd referensi loh bisa buat di contoh juga simak vidio selengkapnyaplease subscribe TRENDING1DesainrumahPalingo.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/harga-rumah-kayu-manado-2019.html"><i>&larr; harga rumah kayu manado 2019</i></a>
+                                                                    
+                                        <a href="/warna-cat-tembok-rumah-minimalis-terbaru.html"><i>warna cat tembok rumah minimalis terbaru &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <script type='text/javascript' src='//pl16217656.highperformancecpmnetwork.com/67/ee/79/67ee79b0d4bcd736fa718802dc4878c9.js'></script>
+            <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>
